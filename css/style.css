@@ -5,7 +5,6 @@
 body {
   font-family: 'Noto Sans JP', sans-serif;
   }
-
 .page{
   padding: 0.5% 0%;
 }
@@ -15,7 +14,15 @@ body {
 ---------------------------------*/
 .header-all{
   margin: 1% 2%;
+  display: flex;
 }
 .header-logo{
-  width: 200px;
+  width: 35%;
+}
+.header-right{
+  margin: auto;
+}
+.header-text{
+  padding: 0px 20px;
+  display: inline-block;
 }
