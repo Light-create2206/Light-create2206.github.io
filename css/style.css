@@ -1,7 +1,21 @@
 /*--------------------------------
- フォント
+ 全体
 ---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
   font-family: 'Noto Sans JP', sans-serif;
   }
+
+.page{
+  padding: 0.5% 0%;
+}
+
+/*--------------------------------
+ヘッダー
+---------------------------------*/
+.header-all{
+  margin: 1% 2%;
+}
+.header-logo{
+  width: 200px;
+}
