@@ -1,28 +1,165 @@
 /*--------------------------------
  全体
 ---------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@charset"UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&family=Montserrat:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap');
+ 
+html{
+  font-size: 100%;
+}
 body {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.7;
+  color: rgb(0, 0, 0)
   }
 .page{
   padding: 0.5% 0%;
 }
-
+a{
+  color: #1ca9e3;
+  text-decoration: none;
+}
 /*--------------------------------
 ヘッダー
 ---------------------------------*/
-.header-all{
-  margin: 1% 2%;
-  display: flex;
+.header a{
+  color:rgb(0, 0, 0);
 }
-.header-logo{
-  width: 35%;
+.header{
+  display: flex;
+  position: fixed;
+  z-index: 7;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
 .header-right{
-  margin: auto;
+  margin-top: 6px; 
+}
+.header-list{
+  display: flex;
 }
 .header-text{
-  padding: 0px 20px;
-  display: inline-block;
+  margin: 0vw 2vw;
+  letter-spacing: 0.2vw;
+  font-family: 'M PLUS 1p';
+  list-style-type: none;
+  position: relative;
+}
+/*--------------------------------
+mv
+---------------------------------*/
+.mv{
+  text-align: center;
+  color: #333;
+}
+.mv-all{
+  margin: 20vw;
+}
+.mv-titel{
+  font-size: 55px;
+  letter-spacing: 0.5vw;
+  font-family: 'Montserrat';
+}
+.mv-subtitel{
+  font-size: 1.5vw;
+  letter-spacing: 0.1vw;
+  font-family: 'Montserrat';
+  margin-top: -3vw;
+}
+/*--------------------------------
+紹介
+---------------------------------*/
+.s{
+  background-color: rgb(235, 235, 235);
+  padding: 9vw 0vw;
+}
+.s-text{
+  font-size: 30px;
+  text-align: center;
+}
+/*--------------------------------
+news
+---------------------------------*/
+.news{
+  padding: 5vw 5vw;
+}
+.news-text{
+  letter-spacing: 0.4vw;
+}
+.news-list{
+  display: flex;  
+  justify-content: space-around;
+  padding: 5vw 0vw;
+}
+.news-item a{
+  color: black;
+}
+.news-item{
+  padding: 0vw 0.5vw;
+}
+.news-name{
+  margin: -0.3vw 0vw;
+  font-family: 'M PLUS 1p';
+  color:rgb(54, 54, 54);
+}
+.news-date{
+  margin: -0.3vw 0vw;
+  color:rgba(65, 64, 64, 0.651);
+}
+.news-center{
+  justify-content: center;
+  align-items: center;
+}
+  .flat.fade {
+    position: relative;
+    text-align: center;
+    /* 中央揃え */
+    display: block;
+    margin: 0 auto;
+    /* 幅の指定 */
+    width: 110%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    /* 色の指定 */
+    background: linear-gradient(135deg, #31acd1, #4aa1f3);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  .flat.fade:hover {
+    opacity: 0.7;
+  }
+  .flat.fade:active, .flat.fade:focus {
+    top: 2px;
+  }
+.news-more{
+  padding: 4vw 0vw;
+}
+/*--------------------------------
+creators
+---------------------------------*/
+.creators{
+  padding: 5vw 5vw;
+  background-color: rgb(235, 235, 235);
+}
+.creators{
+  letter-spacing: 0.4vw;
+}
+.creators-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+.creators-ytlist{
+  display: flex;
+  justify-content: space-around;
+  padding: 5vw 0vw;
+}
+.creators-yt{
+  justify-content: space-around;
+  width: 288px;
+  height: 162px;
 }
