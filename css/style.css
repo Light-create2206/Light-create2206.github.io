@@ -34,6 +34,10 @@ a{
   background-color: #fff;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
+.header-logo{
+  width: 200px;
+  padding-top: 8px; 
+}
 .header-right{
   margin-top: 6px; 
 }
@@ -41,6 +45,7 @@ a{
   display: flex;
 }
 .header-text{
+  font-size: 15px;
   margin: 0vw 2vw;
   letter-spacing: 0.2vw;
   font-family: 'M PLUS 1p';
@@ -76,14 +81,14 @@ mv
   padding: 9vw 0vw;
 }
 .s-text{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 /*--------------------------------
 news
 ---------------------------------*/
 .news{
-  padding: 5vw 5vw;
+  padding: 6vw 5vw;
 }
 .news-text{
   letter-spacing: 0.4vw;
@@ -120,11 +125,11 @@ news
     margin: 0 auto;
     /* 幅の指定 */
     width: 110%;
-    max-width: 300px;
+    max-width: 250px;
     box-sizing: border-box;
     padding: 10px;
     /* 色の指定 */
-    background: linear-gradient(135deg, #31acd1, #4aa1f3);
+    background: linear-gradient(135deg, #c9d64f, #05acee);
     color: #fff;
     font-weight: bold;
     border-radius: 8px;
@@ -136,17 +141,15 @@ news
   .flat.fade:active, .flat.fade:focus {
     top: 2px;
   }
-.news-more{
-  padding: 4vw 0vw;
+.more{
+  padding-top: 4vw;
 }
 /*--------------------------------
 creators
 ---------------------------------*/
 .creators{
-  padding: 5vw 5vw;
+  padding: 6vw 5vw;
   background-color: rgb(235, 235, 235);
-}
-.creators{
   letter-spacing: 0.4vw;
 }
 .creators-subtext{
@@ -162,4 +165,159 @@ creators
   justify-content: space-around;
   width: 288px;
   height: 162px;
+}
+.at.or {
+  position: relative;
+  text-align: center;
+  /* 中央揃え */
+  display: block;
+  margin: 0 auto;
+  /* 幅の指定 */
+  width: 110%;
+  max-width: 250px;
+  box-sizing: border-box;
+  padding: 10px;
+  /* 色の指定 */
+  background: linear-gradient(135deg, #8dd5eb, #f36c4a);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.at.or:hover {
+  opacity: 0.7;
+}
+.at.or:active, .at.or:focus {
+  top: 2px;
+}
+/*--------------------------------
+apply
+---------------------------------*/
+.apply{
+  padding: 6vw 5vw;
+  letter-spacing: 0.4vw;
+}
+.apply-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+.p.l {
+  position: relative;
+  text-align: center;
+  /* 中央揃え */
+  display: block;
+  margin: 0 auto;
+  /* 幅の指定 */
+  width: 110%;
+  max-width: 250px;
+  box-sizing: border-box;
+  padding: 10px;
+  /* 色の指定 */
+  background: linear-gradient(135deg, #36d131, #c0f34a);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.p.l:hover {
+  opacity: 0.7;
+}
+.p.l:active, .p.l:focus {
+  top: 2px;
+}
+/*--------------------------------
+about
+---------------------------------*/
+.about{
+  padding: 6vw 5vw;
+  letter-spacing: 0.4vw;
+  background-color: rgb(235, 235, 235);
+}
+.about-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+/*--------------------------------
+guidelines
+---------------------------------*/
+.guidelines{
+  padding: 6vw 5vw;
+  letter-spacing: 0.4vw;
+  background-color: #fff;
+}
+.guidelines-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+/*--------------------------------
+radio
+---------------------------------*/
+.radio{
+  padding: 6vw 5vw;
+  letter-spacing: 0.4vw;
+  background-color: rgb(235, 235, 235);
+}
+.radio-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+/*--------------------------------
+download
+---------------------------------*/
+.download{
+  padding: 6vw 5vw;
+  letter-spacing: 0.4vw;
+  background-color: #fff;
+}
+.download-text{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+.download-subtext{
+  font-size: 14px;
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+/*--------------------------------
+contact
+---------------------------------*/
+.contact{
+  padding: 6vw 5vw;
+  padding-bottom: 10w;
+  letter-spacing: 0.4vw;
+  background-color: rgb(235, 235, 235);
+}
+.contact-subtext{
+  letter-spacing: 0vw;
+  padding-left: 40px;
+}
+/*--------------------------------
+フッター
+---------------------------------*/
+.footer-line{
+  padding: 45px 10px;
+  background: linear-gradient(135deg, #3171d1, #c0f34a);
+}
+.footer-all{
+  background-color: rgb(235, 235, 235);
+  padding: 2vw 2vw 1vw 2vw;
+}
+.footer{
+  display: flex;
+}
+.footer-list{
+  margin: 0vw 10vw;
+  padding: 0px 0px
+}
+.footer-ul{
+  margin: 0vw -2.5vw;
+  list-style-type: none;
+}
+.footer-text a{
+  color:#333;
+}
+.copyright{
+  font-size: 14px;
+  margin-top: 5vw;
+  text-align: center;
 }
