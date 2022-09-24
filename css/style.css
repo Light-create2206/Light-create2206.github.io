@@ -306,11 +306,11 @@ contact
   display: flex;
 }
 .footer-list{
-  margin: 0vw 10vw;
+  margin: 0vw 11vw;
   padding: 0px 0px
 }
 .footer-ul{
-  margin: 0vw -2.5vw;
+  margin: 0vw -35px;
   list-style-type: none;
 }
 .footer-text a{
