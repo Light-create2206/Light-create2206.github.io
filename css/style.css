@@ -170,11 +170,12 @@ creators
 }
 .creators-ytlist{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding: 5vw 0vw;
 }
 .creators-yt{
   justify-content: space-around;
+  padding: 5vw 0vw;
   width: 288px;
   height: 162px;
 }
