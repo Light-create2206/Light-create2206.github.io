@@ -106,6 +106,7 @@ news
 }
 .news-list{
   display: flex;  
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 5vw 0vw;
 }
@@ -224,7 +225,7 @@ apply
   box-sizing: border-box;
   padding: 10px;
   /* 色の指定 */
-  background: linear-gradient(135deg, #36d131, #c0f34a);
+  background: linear-gradient(135deg, #b9d131, #f34a53);
   color: #fff;
   font-weight: bold;
   border-radius: 8px;
@@ -367,7 +368,7 @@ contact
   }
   .nav{
     display: inline;
-    padding: 0px 3px 0px 150px;
+    padding: 0px 3px 0px 120px;
     }
   .drawer_hidden {
     display: none;
@@ -444,16 +445,13 @@ contact
   }
   /* news*/
   .news{
-    padding: 20vw 15vw;
-  }
-  .news-text{
-    letter-spacing: 0.4vw;
+    padding: 20vw 8vw;
   }
   .news-list{
     display: block;  
-    justify-content: space-around;
     padding: 5vw 0vw;
-  }
+    text-align: center; 
+   }
   .news-img{
     width: 280px;
   }
@@ -461,35 +459,42 @@ contact
     padding: 2vw 0.5vw;
   }
   .news-name{
-    font-size: 13px;
+    font-size: 12px;
     margin: -0.3vw 0vw;
-    font-family: 'M PLUS 1p';
-    color:rgb(54, 54, 54);
   }
   .news-date{
-    font-size: 10px;
+    font-size: 8px;
     margin: -0.3vw 0vw;
-    color:rgba(65, 64, 64, 0.651);
+  }
+  .flat.fade {
+    width: 70%;
   }
   /* creators*/
   .creators{
-    padding: 20vw 5vw;
-    background-color: rgb(235, 235, 235);
-    letter-spacing: 0.4vw;
+    padding: 20vw 8vw;
   }
   .creators-subtext{
-    letter-spacing: 0vw;
+    font-size: 14px;
     padding-left: 10px;
   }
   .creators-ytlist{
     display: block;
-    justify-content: space-around;
-    padding: 5vw 0vw;
+    text-align: center;
   }
-  .creators-yt{
-    justify-content: space-around;
-    width: 288px;
-    height: 162px;
+  .at.or {
+    width: 700%;
+  }
+  /* apply */
+  .apply , .about , .guidelines , .radio , .download , .contact{
+    padding: 10vw 8vw;
+    letter-spacing: 0.4vw;
+  }
+  .apply-subtext , .about-subtext , .guidelines-subtext , .radio-subtext , .download-subtext , .contact-subtext{
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .p.l {
+    width: 70%;
   }
   /* フッター　*/
   .footer{
