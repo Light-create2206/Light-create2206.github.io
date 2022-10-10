@@ -6,6 +6,23 @@
 @media screen and (min-width: 600px){
   .br-sp {display: none; }
   }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein-keyframes {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 html{
   font-size: 100%;
 }
@@ -14,8 +31,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.7;
-  color: rgb(0, 0, 0)
-  }
+  color: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
 .page{
   padding: 0.5% 0%;
 }
@@ -28,6 +46,26 @@ main{
 }
 footer{
   margin: 0px -10px;
+}
+/*--------------------------------
+ロード
+---------------------------------*/
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 555;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadein-keyframes 2s ease 3.3s 1 forwards;
+}
+.load-video{
+  width: 250px;
+  animation: fadeIn 1.5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 /*--------------------------------
 ヘッダー
@@ -69,6 +107,7 @@ mv
 .mv{
   text-align: center;
   color: #333;
+  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 .mv-all{
   margin: 20vw;
@@ -498,14 +537,15 @@ contact
     width: 70%;
   }
   /* フッター　*/
-  .footer{
-    padding-bottom: -10px;
+  .footer-line{
+    padding: 10px 0px;
   }
   .footer-all{
     background-color: rgb(235, 235, 235);
     padding: 10vw 1vw 3vw 1vw;
     margin-bottom: -15px;
   }
+  
   .footer-all-two{
     display: block;
   }
