@@ -387,6 +387,24 @@ contact
   footer{
     margin: 0px -10px;
   }
+  /* ロード */
+  .loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 555;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadein-keyframes 2s ease 3.3s 1 forwards;
+  }
+  .load-video{
+    width: 250px;
+    animation: fadeIn 1.5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+  }
   /* header */
   .header a{
     color:rgb(0, 0, 0);
