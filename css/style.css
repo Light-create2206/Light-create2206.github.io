@@ -15,6 +15,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.7;
   color: rgb(0, 0, 0);
+  overflow:hidden;
 }
 .page{
   padding: 0.5% 0%;
@@ -344,7 +345,7 @@ contact
 ------------------------- */
 @media(max-width:600px){
   body{
-    overflow-x: hidden!important;
+    overflow:hidden;
   }
   main{
     margin: 0px -10px;
