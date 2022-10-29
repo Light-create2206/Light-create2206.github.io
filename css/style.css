@@ -6,6 +6,26 @@
 @media screen and (min-width: 600px){
   .br-sp {display: none; }
   }
+
+/*アニメーション*/
+@keyframes fadeup {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+    }
+  80% {
+    opacity: 1;
+    }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.is-animated{
+  animation: fadeup 2.5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+/*アニメーション*/
+
 html{
   font-size: 100%;
 }
@@ -17,7 +37,7 @@ body {
   color: rgb(0, 0, 0);
 }
 .page{
-  padding: 0.5% 0%;
+  padding: 0.7% 0%;
 }
 a{
   color: #1ca9e3;
@@ -35,12 +55,19 @@ footer{
 .header a{
   color:rgb(0, 0, 0);
 }
-.header{
-  display: flex;
+.header {
   position: fixed;
+  margin-top: -10px; 
   z-index: 7;
+  width: 99%;
   background-color: #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 10px -6px rgba(0,0,0,.1);
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
 }
 .header-logo{
   width: 200px;
@@ -122,7 +149,7 @@ news
 }
 .news-name{
   margin: -0.3vw 0vw;
-  font-family: 'M PLUS 1p';
+  font-family: 'Noto Sans JP';
   color:rgb(54, 54, 54);
 }
 .news-date{
@@ -270,7 +297,7 @@ contact
   background: linear-gradient(135deg, #314ed1, #c0f34a);
 }
 .footer-all{
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(245, 245, 245);
   padding: 3vw 1vw 1vw 1vw;
   margin-bottom: -15px;
 }
@@ -317,8 +344,14 @@ contact
   }
   .header{
     display: flex;
+    width: 95%;
+    margin-top: -1px;
     background-color: #fff;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  }
+  .header .container{
+    margin: -8px -8px;
+    justify-content: space-between;
   }
   .header-logo{
     width: 150px;
@@ -336,7 +369,7 @@ contact
   }
   .nav{
     display: inline;
-    padding: 0vw 1vw 0vw 39vw;
+    padding: 0vw 1vw 0vw 38vw;
     }
   .drawer_hidden {
     display: none;
@@ -457,9 +490,12 @@ contact
     padding: 10vw 8vw;
     letter-spacing: 0.4vw;
   }
-  .apply-subtext , .about-subtext , .guidelines-subtext , .radio-subtext , .download-subtext , .contact-subtext{
-    font-size: 14px;
-    padding-left: 10px;
+  .apply-text , .about-text , .guidelines-text , .radio-text , .download-text , .contact-text{
+    font-size: 18px;
+  }
+  .subtext{
+    font-size: 13px;
+    padding-left: 5vw;
   }
   .p.l {
     width: 70%;
@@ -469,7 +505,6 @@ contact
     padding: 10px 0px;
   }
   .footer-all{
-    background-color: rgb(235, 235, 235);
     padding: 10vw 1vw 3vw 1vw;
     margin-bottom: -15px;
   }
@@ -478,7 +513,7 @@ contact
     display: block;
   }
   .footer-logo{
-    width: 200px;
+    width: 150px;
   }
   .footer-right{
     display:block;
