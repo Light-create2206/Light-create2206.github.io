@@ -329,6 +329,9 @@ contact
 /*　モバイル版
 ------------------------- */
 @media(max-width:600px){
+  body{
+    overflow-x: hidden;
+  }
   main{
     margin: 0px -10px;
   }
@@ -468,7 +471,8 @@ contact
     margin: -0.3vw 0vw;
   }
   .flat.fade {
-    width: 70%;
+    width: 50%;
+    font-size: 13px;
   }
   /* creators*/
   .creators{
@@ -483,7 +487,8 @@ contact
     text-align: center;
   }
   .at.or {
-    width: 700%;
+    width: 50%;
+    font-size: 13px;
   }
   /* apply */
   .apply , .about , .guidelines , .radio , .download , .contact{
@@ -498,7 +503,8 @@ contact
     padding-left: 5vw;
   }
   .p.l {
-    width: 70%;
+    width: 50%;
+    font-size: 13px;
   }
   /* フッター　*/
   .footer-line{
