@@ -43,6 +43,19 @@ a{
   color: #1ca9e3;
   text-decoration: none;
 }
+a[href^="http"]:after,
+a[href^="//"]:after {
+  margin: 0 0 0 3px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f35d';
+  font-weight: 900;
+}
+a[href^="https://light-create2206.github.io"]:after {
+  margin: inherit;
+  font-family: inherit;
+  content: '';
+  font-weight: inherit;
+}
 main{
   margin: 0vw -0.34vw;
 }
