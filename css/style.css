@@ -44,10 +44,10 @@ a{
   text-decoration: none;
 }
 main{
-  margin: 0px -10px;
+  margin: 0vw -0.34vw;
 }
 footer{
-  margin: 0px -10px;
+  margin: 0vw -0.34vw;
 }
 /*--------------------------------
 ヘッダー
@@ -329,14 +329,11 @@ contact
 /*　モバイル版
 ------------------------- */
 @media(max-width:600px){
-  body *{
-    outline: red 1px solid;
-  }
   main{
-    margin: 0px -10px;
+    margin: 0vw -2vw;
   }
   footer{
-    margin: 0px -10px;
+    margin: 0vw -2vw;
   }
   .page{
     padding: 0% 0%;
