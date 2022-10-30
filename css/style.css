@@ -329,8 +329,8 @@ contact
 /*　モバイル版
 ------------------------- */
 @media(max-width:600px){
-  body{
-    overflow-x: hidden;
+  body *{
+    outline: red 1px solid;
   }
   main{
     margin: 0px -10px;
