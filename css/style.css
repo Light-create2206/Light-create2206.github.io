@@ -28,6 +28,7 @@
 
 html{
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'M PLUS 1p', sans-serif;
@@ -305,12 +306,8 @@ contact
 .footer{
   padding-bottom: -10px;
 }
-.footer-line{
-  padding: 35px 0px;
-  background: linear-gradient(135deg, #314ed1, #c0f34a);
-}
 .footer-all{
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(255, 255, 255);
   padding: 3vw 1vw 1vw 1vw;
   margin-bottom: -15px;
 }
