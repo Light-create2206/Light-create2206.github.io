@@ -28,7 +28,6 @@
 
 html{
   font-size: 100%;
-  scroll-behavior: smooth;
 }
 body {
   font-family: 'M PLUS 1p', sans-serif;
@@ -105,200 +104,23 @@ footer{
   display:none;
 }
 /*--------------------------------
-mv
+privacy
 ---------------------------------*/
-.mv{
-  text-align: center;
-  color: #333;
-  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
-}
-.mv-all{
-  margin: 20vw;
-}
-.mv-titel{
-  font-size: 55px;
-  letter-spacing: 0.5vw;
-  font-family: 'Montserrat';
-}
-.mv-subtitel{
-  font-size: 1.5vw;
-  letter-spacing: 0.1vw;
-  font-family: 'Montserrat';
-  margin-top: -3vw;
-}
-/*--------------------------------
-紹介
----------------------------------*/
-.s{
-  background-color: rgb(235, 235, 235);
-  padding: 9vw 0vw;
-}
-.s-text{
-  font-size: 25px;
-  text-align: center;
-}
-/*--------------------------------
-news
----------------------------------*/
-.news{
-  padding: 6vw 5vw;
-}
-.news-text{
-  letter-spacing: 0.4vw;
-}
-.news-list{
-  display: flex;  
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 5vw 0vw;
-}
-.news-img{
-  width: 20vw;
-}
-.news-item a{
-  color: black;
-}
-.news-item{
-  padding: 0vw 0.5vw;
-}
-.news-name{
-  margin: -0.3vw 0vw;
+.privacy{
+  margin: 150px 200px;
   font-family: 'Noto Sans JP';
-  color:rgb(54, 54, 54);
+  color: rgb(88, 88, 88);
 }
-.news-date{
-  margin: -0.3vw 0vw;
-  color:rgba(65, 64, 64, 0.651);
+.privacy-title{
+  font-size: 30px;
+  margin-bottom: 30px;
 }
-.news-center{
-  justify-content: center;
-  align-items: center;
+.privacy-paragraph{
+  margin-top: 30px;
+  margin-bottom: -20px;
 }
-  .flat.fade {
-    position: relative;
-    text-align: center;
-    /* 中央揃え */
-    display: block;
-    margin: 0 auto;
-    /* 幅の指定 */
-    width: 110%;
-    max-width: 250px;
-    box-sizing: border-box;
-    padding: 10px;
-    /* 色の指定 */
-    background: linear-gradient(135deg, #c9d64f, #05acee);
-    color: #fff;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: 0.3s;
-  }
-  .flat.fade:hover {
-    opacity: 0.7;
-  }
-  .flat.fade:active, .flat.fade:focus {
-    top: 2px;
-  }
-.more{
-  padding-top: 4vw;
-}
-/*--------------------------------
-基本
----------------------------------*/
-.white{
-  padding: 6vw 5vw;
-  letter-spacing: 0.4vw;
-}
-.gray{
-  padding: 6vw 5vw;
-  background-color: rgb(235, 235, 235);
-  letter-spacing: 0.4vw;
-}
-.subtext{
-  letter-spacing: 0vw;
-  padding-left: 40px;
-}
-/*--------------------------------
-creators
----------------------------------*/
-.creators,.about,.radio{
-  padding: 6vw 5vw;
-  background-color: rgb(235, 235, 235);
-  letter-spacing: 0.4vw;
-}
-.creators-ytlist{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.creators-yt{
-  justify-content: space-around;
-  padding: 5vw 0vw;
-  width: 288px;
-  height: 162px;
-}
-.at.or {
-  position: relative;
-  text-align: center;
-  /* 中央揃え */
-  display: block;
-  margin: 0 auto;
-  /* 幅の指定 */
-  width: 110%;
-  max-width: 250px;
-  box-sizing: border-box;
-  padding: 10px;
-  /* 色の指定 */
-  background: linear-gradient(135deg, #8dd5eb, #f36c4a);
-  color: #fff;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-.at.or:hover {
-  opacity: 0.7;
-}
-.at.or:active, .at.or:focus {
-  top: 2px;
-}
-/*--------------------------------
-apply
----------------------------------*/
-.apply,.guidelines,.download{
-  padding: 6vw 5vw;
-  letter-spacing: 0.4vw;
-}
-.p.l {
-  position: relative;
-  text-align: center;
-  /* 中央揃え */
-  display: block;
-  margin: 0 auto;
-  /* 幅の指定 */
-  width: 110%;
-  max-width: 250px;
-  box-sizing: border-box;
-  padding: 10px;
-  /* 色の指定 */
-  background: linear-gradient(135deg, #b9d131, #f34a53);
-  color: #fff;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-.p.l:hover {
-  opacity: 0.7;
-}
-.p.l:active, .p.l:focus {
-  top: 2px;
-}
-/*--------------------------------
-contact
----------------------------------*/
-.contact{
-  padding: 6vw 5vw;
-  padding-bottom: 10w;
-  letter-spacing: 0.4vw;
-  background-color: rgb(235, 235, 235);
+.privacy-date{
+  margin-top: 50px;
 }
 /*--------------------------------
 フッター
@@ -307,7 +129,6 @@ contact
   padding-bottom: -10px;
 }
 .footer-all{
-  background-color: rgb(255, 255, 255);
   padding: 3vw 1vw 1vw 1vw;
   margin-bottom: -15px;
 }
@@ -440,78 +261,28 @@ contact
    left: 0;/* メニューを画面に入れる */
   }
 
-  /* mv */
-  .mv{
-    padding: 35vw 0vw;
+  /*privacy */
+  .privacy{
+    padding-top: 70px;
+    margin: 0px 20px;
   }
-  .mv-titel{
-    font-size: 30px;
+  .privacy-title{
+    font-size: 20px;
+    margin-bottom: 20px;
   }
-  .mv-subtitel{
+  .privacy-subtitle{
     font-size: 15px;
   }
-  /* 紹介 */
-  .s-text{
+  .privacy-paragraph{
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+  .privacy-text{
     font-size: 15px;
   }
-  /* news*/
-  .news{
-    padding: 20vw 8vw;
-  }
-  .news-list{
-    display: block;  
-    padding: 5vw 0vw;
-    text-align: center; 
-   }
-  .news-img{
-    width: 280px;
-  }
-  .news-item{
-    padding: 2vw 0.5vw;
-  }
-  .news-name{
-    font-size: 12px;
-    margin: -0.3vw 0vw;
-  }
-  .news-date{
-    font-size: 8px;
-    margin: -0.3vw 0vw;
-  }
-  .flat.fade {
-    width: 50%;
-    font-size: 13px;
-  }
-  /* creators*/
-  .creators{
-    padding: 20vw 8vw;
-  }
-  .creators-subtext{
-    font-size: 14px;
-    padding-left: 10px;
-  }
-  .creators-ytlist{
-    display: block;
-    text-align: center;
-  }
-  .at.or {
-    width: 50%;
-    font-size: 13px;
-  }
-  /* apply */
-  .apply , .about , .guidelines , .radio , .download , .contact{
-    padding: 10vw 8vw;
-    letter-spacing: 0.4vw;
-  }
-  .apply-text , .about-text , .guidelines-text , .radio-text , .download-text , .contact-text{
-    font-size: 18px;
-  }
-  .subtext{
-    font-size: 13px;
-    padding-left: 5vw;
-  }
-  .p.l {
-    width: 50%;
-    font-size: 13px;
+  .privacy-date{
+    font-size: 15px;
+    margin-top: 50px;
   }
   /* フッター　*/
   .footer-all{
