@@ -110,7 +110,6 @@ mv
 .mv{
   text-align: center;
   color: #333;
-  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 .mv-all{
   margin: 20vw;
