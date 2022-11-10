@@ -104,23 +104,52 @@ footer{
   display:none;
 }
 /*--------------------------------
-privacy
+全体
 ---------------------------------*/
-.privacy{
-  margin: 150px 200px;
+.privacy,.about{
+  margin: 100px 20vw;
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title{
+.privacy-title,.about-title{
   font-size: 30px;
   margin-bottom: 30px;
 }
+/*--------------------------------
+プライバシーポリシー
+---------------------------------*/
 .privacy-paragraph{
   margin-top: 30px;
   margin-bottom: -20px;
 }
 .privacy-date{
   margin-top: 50px;
+}
+/*--------------------------------
+LCについて
+---------------------------------*/
+.about-subtitle{
+  margin-top: -35px;
+}
+.operation,.detail{
+  margin: 100px 0px;
+}
+.operation-box{
+  display: flex;
+}
+.operation-text{
+  font-size: 25px;
+  margin: -20px 0px;
+}
+.detail-box{
+  display: flex;
+  margin: -10px 0px;
+}
+.detail-title{
+  width: 10em;
+}
+.detail-content{
+  margin-left: 5em;
 }
 /*--------------------------------
 フッター
@@ -262,7 +291,7 @@ privacy
   }
 
   /*privacy */
-  .privacy{
+  .privacy,.about{
     padding-top: 70px;
     margin: 0px 20px;
   }

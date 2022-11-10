@@ -220,11 +220,6 @@ news
 /*--------------------------------
 creators
 ---------------------------------*/
-.creators,.about,.radio{
-  padding: 6vw 5vw;
-  background-color: rgb(235, 235, 235);
-  letter-spacing: 0.4vw;
-}
 .creators-ytlist{
   display: flex;
   flex-wrap: wrap;
@@ -263,10 +258,6 @@ creators
 /*--------------------------------
 apply
 ---------------------------------*/
-.apply,.guidelines,.download{
-  padding: 6vw 5vw;
-  letter-spacing: 0.4vw;
-}
 .p.l {
   position: relative;
   text-align: center;
@@ -290,15 +281,6 @@ apply
 }
 .p.l:active, .p.l:focus {
   top: 2px;
-}
-/*--------------------------------
-contact
----------------------------------*/
-.contact{
-  padding: 6vw 5vw;
-  padding-bottom: 10w;
-  letter-spacing: 0.4vw;
-  background-color: rgb(235, 235, 235);
 }
 /*--------------------------------
 フッター
@@ -498,7 +480,7 @@ contact
     font-size: 13px;
   }
   /* apply */
-  .apply , .about , .guidelines , .radio , .download , .contact{
+  .gray,.white{
     padding: 10vw 8vw;
     letter-spacing: 0.4vw;
   }
