@@ -134,12 +134,30 @@ LCについて
 .operation,.detail{
   margin: 100px 0px;
 }
+.operation a{
+  color: rgb(0, 0, 0);
+}
 .operation-box{
   display: flex;
+  margin: 20px 0px;
+}
+.operation-text-box{
+  margin: -5px 0px;
 }
 .operation-text{
   font-size: 25px;
   margin: -20px 0px;
+}
+.operation-img{
+  width: 200px;
+  margin-right: 100px;
+}
+.operation-creators{
+  background-color: rgb(218, 218, 218);
+  padding: 5px;
+  width: 132px;
+  border-radius: 5px;
+  font-size: 13px;
 }
 .detail-box{
   display: flex;
@@ -289,19 +307,19 @@ LCについて
   #drawer_input:checked ~ .nav_content {
    left: 0;/* メニューを画面に入れる */
   }
-
-  /*privacy */
+  /*全体*/
   .privacy,.about{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title{
+  .privacy-title,.about-title{
     font-size: 20px;
     margin-bottom: 20px;
   }
   .privacy-subtitle{
     font-size: 15px;
   }
+  /*privacy */
   .privacy-paragraph{
     margin-top: 30px;
     margin-bottom: -15px;
@@ -313,6 +331,52 @@ LCについて
     font-size: 15px;
     margin-top: 50px;
   }
+  /*LCについて*/
+  .about-subtitle{
+    font-size: 15px;
+    margin-top: -25px;
+  }
+  .about-text{
+    font-size: 15px;
+  }
+  .operation{
+    justify-content: center;
+  }
+  .operation-box{
+    display: block;
+    margin-bottom: 150px;
+  }
+  .operation-text-box{
+    margin: -10px 0px;
+  }
+  .operation-text{
+    font-size: 25px;
+  }
+  .operation-position,.operation-subtext{
+    font-size: 15px;
+  }
+  .operation-img-box{
+    text-align: center;
+  }
+  .operation-img{
+    width: 220px;
+    margin-right: 0px;
+  }
+  .operation-creators{
+    width: 122px;
+    font-size: 12px;
+  }
+  .detail-box{
+    display: flex;
+    font-size: 12px;
+  }
+  .detail-title{
+    width: 10em;
+  }
+  .detail-content{
+    width: 15em;
+  }
+  
   /* フッター　*/
   .footer-all{
     padding: 10vw 1vw 3vw 1vw;
