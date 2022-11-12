@@ -35,6 +35,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.7;
   color: rgb(0, 0, 0);
+  background-color: #fff;
 }
 .page{
   padding: 0.7% 0%;
@@ -111,9 +112,10 @@ footer{
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title{
+.privacy-title,.about-title,.news-title{
   font-size: 30px;
   margin-bottom: 30px;
+  letter-spacing: 0.4vw;
 }
 /*--------------------------------
 プライバシーポリシー
@@ -168,6 +170,55 @@ LCについて
 }
 .detail-content{
   margin-left: 5em;
+}
+/*--------------------------------
+news
+---------------------------------*/
+.news{
+  margin: 100px 100px;
+  font-family: 'Noto Sans JP';
+}
+.news-box{
+  margin-bottom: 100px; 
+}
+.news-list{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.news-img{
+  width: 350px;
+}
+.news-item a{
+  color: black;
+}
+.news-item{
+  padding: 0vw 0.5vw;
+}
+.news-name{
+  font-size: 13px;
+  margin: -0.3vw 0vw;
+  color:rgb(54, 54, 54);
+}
+.news-date{
+  margin: -0.3vw 0vw;
+  color:rgba(65, 64, 64, 0.651);
+}
+.news-article{
+  margin: 100px 20vw;
+  font-family: 'Noto Sans JP';
+}
+.news-article-date{
+  color: rgb(88, 88, 88);
+  margin-top: -10px;
+}
+.news-article-img-box{
+  text-align: center;
+}
+.news-article-img{ 
+  width: 450px;
+  margin-bottom: 50px;
 }
 /*--------------------------------
 フッター
@@ -312,7 +363,7 @@ LCについて
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title{
+  .privacy-title,.about-title,.news-title{
     font-size: 20px;
     margin-bottom: 20px;
   }
@@ -376,7 +427,50 @@ LCについて
   .detail-content{
     width: 15em;
   }
-  
+  /*news*/
+  .news{
+    display: bottom;
+    padding-top: 70px;
+    margin: 0px 20px;
+  }
+  .news-list{
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .news-item{
+    padding: 0vw 0vw;
+    margin-bottom: 20px;
+  }
+  .news-img{
+    width: 300px;
+  }
+  .news-name{
+    font-size: 13px;
+  }
+  .news-date{
+    font-size: 9px;
+  }
+  .news-article{
+    padding-top: 0px;
+    margin: 0px 10px;
+  }
+  .news-article-title{
+    font-size: 20px;
+  }
+  .news-article-date{
+    margin-top: -20px;
+    font-size: 13px;
+  }
+  .news-article-img-box{
+    text-align: center;
+  }
+  .news-article-img{ 
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .news-article-text{
+    font-size: 15px;
+  }
   /* フッター　*/
   .footer-all{
     padding: 10vw 1vw 3vw 1vw;
