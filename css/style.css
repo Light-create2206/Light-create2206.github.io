@@ -334,7 +334,6 @@ apply
     color:rgb(0, 0, 0);
   }
   .header{
-    display: flex;
     width: 95%;
     margin-top: -1px;
     background-color: #fff;
@@ -360,7 +359,7 @@ apply
   }
   .nav{
     display: inline;
-    padding: 0vw 1vw 0vw 38vw;
+    margin-right: -4px;
     }
   .drawer_hidden {
     display: none;

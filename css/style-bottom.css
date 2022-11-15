@@ -34,8 +34,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.7;
-  color: rgb(0, 0, 0);
-  background-color: #fff;
+  color: rgb(88, 88, 88);
 }
 .page{
   padding: 0.7% 0%;
@@ -112,10 +111,13 @@ footer{
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title,.news-title{
+.privacy-title,.about-title,.news-title,.creators-title{
   font-size: 30px;
   margin-bottom: 30px;
   letter-spacing: 0.4vw;
+}
+.about-subtitle,.creators-subtitle{
+  margin-top: -35px;
 }
 /*--------------------------------
 プライバシーポリシー
@@ -130,14 +132,11 @@ footer{
 /*--------------------------------
 LCについて
 ---------------------------------*/
-.about-subtitle{
-  margin-top: -35px;
-}
 .operation,.detail{
   margin: 100px 0px;
 }
 .operation a{
-  color: rgb(0, 0, 0);
+  color: rgb(88, 88, 88);
 }
 .operation-box{
   display: flex;
@@ -191,7 +190,7 @@ news
   width: 350px;
 }
 .news-item a{
-  color: black;
+  color: rgb(88, 88, 88);
 }
 .news-item{
   padding: 0vw 0.5vw;
@@ -219,6 +218,34 @@ news
 .news-article-img{ 
   width: 450px;
   margin-bottom: 50px;
+}
+/*--------------------------------
+creators
+---------------------------------*/
+.creators{
+  margin: 100px 150px;
+  font-family: 'Noto Sans JP';
+}
+.creators-list{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.creators-item a{
+  color: rgb(88, 88, 88);
+}
+.creators-img{
+  width: 200px;
+  border: 0.1px solid #dadada;
+}
+.creators-name{
+  font-size: 15px;
+  margin-top: -8px;
+}
+.creators-info{
+  font-size: 10px;
+  margin-top: -20px;
 }
 /*--------------------------------
 フッター
@@ -272,7 +299,6 @@ news
     color:rgb(0, 0, 0);
   }
   .header{
-    display: flex;
     width: 95%;
     margin-top: -1px;
     background-color: #fff;
@@ -298,7 +324,7 @@ news
   }
   .nav{
     display: inline;
-    padding: 0vw 1vw 0vw 38vw;
+    margin-right: -4px;
     }
   .drawer_hidden {
     display: none;
@@ -359,15 +385,18 @@ news
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about{
+  .privacy,.about,.creators{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title{
+  .privacy-title,.about-title,.news-title,.creators-title{
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .privacy-subtitle{
+  .privacy-subtitle,.about-subtitle,.creators-subtitle{
+    font-size: 15px;
+  }
+  .privacy-text,.about-text,.creators-text{
     font-size: 15px;
   }
   /*privacy */
@@ -375,21 +404,11 @@ news
     margin-top: 30px;
     margin-bottom: -15px;
   }
-  .privacy-text{
-    font-size: 15px;
-  }
   .privacy-date{
     font-size: 15px;
     margin-top: 50px;
   }
   /*LCについて*/
-  .about-subtitle{
-    font-size: 15px;
-    margin-top: -25px;
-  }
-  .about-text{
-    font-size: 15px;
-  }
   .operation{
     justify-content: center;
   }
