@@ -223,14 +223,18 @@ news
 creators
 ---------------------------------*/
 .creators{
-  margin: 100px 150px;
+  margin: 80px 20vw;
   font-family: 'Noto Sans JP';
 }
 .creators-list{
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 20px;
+}
+.creators-item{
+  margin: 0px 10px;
+  margin-bottom: 50px;
+  width: 200px;
 }
 .creators-item a{
   color: rgb(88, 88, 88);
@@ -246,6 +250,41 @@ creators
 .creators-info{
   font-size: 10px;
   margin-top: -20px;
+}
+.creator{
+  margin: 100px 100px;
+  font-family: 'Noto Sans JP';
+}
+.creator-box{
+  margin: 100px 20vw;
+}
+.creator-info{
+  color: rgb(88, 88, 88);
+  margin-top: -10px;
+}
+.creator-img-box{
+  text-align: center;
+}
+.creator-img{ 
+  width: 250px;
+  margin-bottom: 50px;
+}
+.creator-subtitle{
+  margin-top: -20px;
+}
+.creator-text{
+  margin-left: 10px;
+}
+.creator-title{
+  margin-top: 50px;
+  margin-bottom: -10px;
+  padding: 0.2em 0.5em;/*上下 左右の余白*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7de6a0;/*左線*/
+  border-radius: 5px;
+}
+.creator-link{
+  margin: 20px 10px;
 }
 /*--------------------------------
 フッター
@@ -391,15 +430,18 @@ creators
   }
   .privacy-title,.about-title,.news-title,.creators-title{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
-  .privacy-subtitle,.about-subtitle,.creators-subtitle{
+  .about-subtitle,.creators-subtitle{
     font-size: 15px;
   }
   .privacy-text,.about-text,.creators-text{
-    font-size: 15px;
+    font-size: 13px;
   }
   /*privacy */
+  .privacy-subtitle{
+    font-size: 13px;
+  }
   .privacy-paragraph{
     margin-top: 30px;
     margin-bottom: -15px;
@@ -420,10 +462,10 @@ creators
     margin: -10px 0px;
   }
   .operation-text{
-    font-size: 25px;
+    font-size: 20px;
   }
   .operation-position,.operation-subtext{
-    font-size: 15px;
+    font-size: 13px;
   }
   .operation-img-box{
     text-align: center;
@@ -489,6 +531,51 @@ creators
   }
   .news-article-text{
     font-size: 15px;
+  }
+  /*creators*/
+  .creators{
+    padding-top: 70px;
+  }
+  .creators-item{
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  .creators-img{
+    width: 150px;
+  }
+  .creators-name{
+    font-size: 14px;
+  }
+  .creators-info{
+    font-size: 9px;
+  }
+  .creator{
+    padding-top: 70px;
+    margin: 0px 0px;
+  }
+  .creator-box{
+    padding-top: 0px;
+    margin: 0px 20px;
+  }
+  .creator-name{
+    font-size: 20px;
+  }
+  .creator-info{
+    margin-top: -20px;
+    font-size: 13px;
+  }
+  .creator-img{ 
+    margin-bottom: 50px;
+  }
+  .creator-subtitle,.creator-text{
+    font-size: 13px;
+  }
+  .creator-title{
+    font-size: 15px;
+  }
+  .creator-link{
+    font-size: 13px;
   }
   /* フッター　*/
   .footer-all{
