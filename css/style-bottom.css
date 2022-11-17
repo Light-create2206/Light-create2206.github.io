@@ -111,12 +111,12 @@ footer{
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title,.news-title,.creators-title{
+.privacy-title,.about-title,.news-title,.creators-title,.contact-title{
   font-size: 30px;
   margin-bottom: 30px;
   letter-spacing: 0.4vw;
 }
-.about-subtitle,.creators-subtitle{
+.about-subtitle,.creators-subtitle,.contact-subtitle{
   margin-top: -35px;
 }
 /*--------------------------------
@@ -268,6 +268,7 @@ creators
 .creator-img{ 
   width: 250px;
   margin-bottom: 50px;
+  border: 0.1px solid #dadada;
 }
 .creator-subtitle{
   margin-top: -20px;
@@ -280,11 +281,40 @@ creators
   margin-bottom: -10px;
   padding: 0.2em 0.5em;/*上下 左右の余白*/
   background: transparent;/*背景透明に*/
-  border-left: solid 5px #7de6a0;/*左線*/
+  border-left: solid 5px #32c96c;/*左線*/
   border-radius: 5px;
 }
 .creator-link{
-  margin: 20px 10px;
+  margin: 10px -30px;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+/*--------------------------------
+contact
+---------------------------------*/
+.contact{
+  margin-top: 100px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 100px;
+  font-family: 'Noto Sans JP';
+  color: rgb(88, 88, 88);
+}
+.contact-link{
+  margin: 100px 0px;
+}
+.contact-li-box{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact-li a{
+  color: #fff;
+}
+.contact-li{
+  background-color: rgb(65, 65, 65);
+  padding: 20px 20px;
+  border-radius: 20px;
 }
 /*--------------------------------
 フッター
@@ -424,18 +454,18 @@ creators
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about,.creators{
+  .privacy,.about,.creators,.contact{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title,.creators-title{
+  .privacy-title,.about-title,.news-title,.creators-title,.contact-title{
     font-size: 20px;
     margin-bottom: 30px;
   }
-  .about-subtitle,.creators-subtitle{
+  .about-subtitle,.creators-subtitle,.contact-subtitle{
     font-size: 15px;
   }
-  .privacy-text,.about-text,.creators-text{
+  .privacy-text,.about-text,.creators-text,.contact-text{
     font-size: 13px;
   }
   /*privacy */
@@ -575,6 +605,16 @@ creators
     font-size: 15px;
   }
   .creator-link{
+    font-size: 13px;
+  }
+  /* contact */
+  .contact-link{
+    margin: 50px 0px;
+  }
+  .contact-li-box{
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
     font-size: 13px;
   }
   /* フッター　*/
