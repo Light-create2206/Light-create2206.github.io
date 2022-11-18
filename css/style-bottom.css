@@ -106,17 +106,17 @@ footer{
 /*--------------------------------
 全体
 ---------------------------------*/
-.privacy,.about{
+.privacy,.about,.radio,.guidelines{
   margin: 100px 20vw;
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title,.news-title,.creators-title,.contact-title{
+.privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title{
   font-size: 30px;
   margin-bottom: 30px;
   letter-spacing: 0.4vw;
 }
-.about-subtitle,.creators-subtitle,.contact-subtitle{
+.about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle{
   margin-top: -35px;
 }
 /*--------------------------------
@@ -317,6 +317,47 @@ contact
   border-radius: 20px;
 }
 /*--------------------------------
+radio
+---------------------------------*/
+.radio-new,.radio-archive,.radio-letter{
+  margin: 100px 0px;
+}
+.radio-yt-list{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.radio-yt-box{
+  text-align: center;
+}
+.radio-yt{
+  width: 288px;
+  height: 162px;
+}
+.radiot-link-box{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.radiot-link a{
+  color: #fff;
+}
+.radiot-link{
+  background-color: rgb(65, 65, 65);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+/*--------------------------------
+guidelines
+---------------------------------*/
+.guidelines-paragraph{
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+.guidelines-date{
+  margin-top: 50px;
+}
+/*--------------------------------
 フッター
 ---------------------------------*/
 .footer{
@@ -454,18 +495,18 @@ contact
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about,.creators,.contact{
+  .privacy,.about,.creators,.contact,.radio{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title,.creators-title,.contact-title{
+  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title{
     font-size: 20px;
     margin-bottom: 30px;
   }
-  .about-subtitle,.creators-subtitle,.contact-subtitle{
+  .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle{
     font-size: 15px;
   }
-  .privacy-text,.about-text,.creators-text,.contact-text{
+  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text{
     font-size: 13px;
   }
   /*privacy */
@@ -477,7 +518,7 @@ contact
     margin-bottom: -15px;
   }
   .privacy-date{
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 50px;
   }
   /*LCについて*/
@@ -616,6 +657,32 @@ contact
     text-align: center;
     padding: 5px 5px;
     font-size: 13px;
+  }
+  /* radio */
+  .radio-yt{
+    width: 288px;
+    height: 162px;
+  }
+  .radiot-link-box{
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+  .radiot-link{
+    margin: 50px 0px;
+  }
+  /* ガイドライン */
+  .guidelines-subtitle{
+    font-size: 13px;
+  }
+  .guidelines-paragraph{
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+  .guidelines-date{
+    font-size: 13px;
+    margin-top: 50px;
   }
   /* フッター　*/
   .footer-all{
