@@ -357,6 +357,19 @@ guidelines
 .guidelines-date{
   margin-top: 50px;
 }
+.guidelines-link-box{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.guidelines-link a{
+  color: #fff;
+}
+.guidelines-link{
+  background-color: rgb(65, 65, 65);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
 /*--------------------------------
 フッター
 ---------------------------------*/
@@ -495,18 +508,18 @@ guidelines
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about,.creators,.contact,.radio{
+  .privacy,.about,.creators,.contact,.radio,.guidelines{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title{
+  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title{
     font-size: 20px;
     margin-bottom: 30px;
   }
   .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle{
     font-size: 15px;
   }
-  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text{
+  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text{
     font-size: 13px;
   }
   /*privacy */
@@ -683,6 +696,15 @@ guidelines
   .guidelines-date{
     font-size: 13px;
     margin-top: 50px;
+  }
+  .guidelines-link-box{
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+  .guidelines-link{
+    margin: 50px 0px;
   }
   /* フッター　*/
   .footer-all{
