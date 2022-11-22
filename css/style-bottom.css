@@ -106,17 +106,17 @@ footer{
 /*--------------------------------
 全体
 ---------------------------------*/
-.privacy,.about,.radio,.guidelines{
+.privacy,.about,.radio,.guidelines,.apply{
   margin: 100px 20vw;
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title{
+.privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title{
   font-size: 30px;
   margin-bottom: 30px;
   letter-spacing: 0.4vw;
 }
-.about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle{
+.about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle,.apply-subtitle{
   margin-top: -35px;
 }
 /*--------------------------------
@@ -371,6 +371,34 @@ guidelines
   border-radius: 20px;
 }
 /*--------------------------------
+apply
+---------------------------------*/
+.apply-flow,.apply-conditions,.apply-terms{
+  margin: 50px 0px;
+}
+.apply-flow-title,.apply-conditions-title,.apply-terms-title{
+  font-size: 30px;
+  margin-bottom: -10px;
+  letter-spacing: 0.4vw;
+}
+.apply-paragraph{
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+.apply-link-box{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.apply-link a{
+  color: #fff;
+}
+.apply-link{
+  background-color: rgb(65, 65, 65);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+/*--------------------------------
 フッター
 ---------------------------------*/
 .footer{
@@ -508,18 +536,18 @@ guidelines
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about,.creators,.contact,.radio,.guidelines{
+  .privacy,.about,.creators,.contact,.radio,.guidelines,.apply{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title{
+  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title{
     font-size: 20px;
     margin-bottom: 30px;
   }
-  .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle{
+  .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.apply-subtitle{
     font-size: 15px;
   }
-  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text{
+  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text,.apply-text{
     font-size: 13px;
   }
   /*privacy */
@@ -704,6 +732,23 @@ guidelines
     font-size: 13px;
   }
   .guidelines-link{
+    margin: 50px 0px;
+  }
+  /* apply */
+  .apply-flow-title,.apply-conditions-title,.apply-terms-title{
+    font-size: 20px;
+  }
+  .apply-paragraph{
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+  .apply-link-box{
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+  .apply-link{
     margin: 50px 0px;
   }
   /* フッター　*/

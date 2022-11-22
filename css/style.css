@@ -22,7 +22,7 @@
     }
 }
 .is-animated{
-  animation: fadeup 2.5s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+  animation: fadeup 2s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 /*アニメーション*/
 
@@ -110,6 +110,7 @@ mv
 .mv{
   text-align: center;
   color: #333;
+  animation: fadeup 3s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
 .mv-all{
   margin: 20vw;
