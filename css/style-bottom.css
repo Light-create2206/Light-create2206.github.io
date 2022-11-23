@@ -373,10 +373,10 @@ guidelines
 /*--------------------------------
 apply
 ---------------------------------*/
-.apply-flow,.apply-conditions,.apply-terms{
+.apply-flow,.apply-conditions,.apply-terms,.apply-question{
   margin: 50px 0px;
 }
-.apply-flow-title,.apply-conditions-title,.apply-terms-title{
+.apply-flow-title,.apply-conditions-title,.apply-terms-title,.apply-question-title{
   font-size: 30px;
   margin-bottom: -10px;
   letter-spacing: 0.4vw;
@@ -397,6 +397,17 @@ apply
   background-color: rgb(65, 65, 65);
   padding: 20px 20px;
   border-radius: 20px;
+}
+.apply-question-details{
+  background: linear-gradient(135deg, #f8ac8e, #a6e49a,#92a4dd);
+  padding: 10px 10px 10px 10px;
+}
+.apply-question-details{
+  margin: 15px 0px;
+}
+.apply-question-text{
+  margin-top: 3px;
+  margin-left: 20px;
 }
 /*--------------------------------
 フッター
@@ -735,7 +746,7 @@ apply
     margin: 50px 0px;
   }
   /* apply */
-  .apply-flow-title,.apply-conditions-title,.apply-terms-title{
+  .apply-flow-title,.apply-conditions-title,.apply-terms-title,.apply-question-title{
     font-size: 20px;
   }
   .apply-paragraph{
@@ -750,6 +761,13 @@ apply
   }
   .apply-link{
     margin: 50px 0px;
+  }
+  .apply-question-details{
+    font-size: 13px;
+  }
+  .apply-question-text{
+    font-size: 13px;
+    margin-left: 15px;
   }
   /* フッター　*/
   .footer-all{
