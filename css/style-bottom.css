@@ -28,6 +28,7 @@
 
 html{
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'M PLUS 1p', sans-serif;
@@ -106,17 +107,17 @@ footer{
 /*--------------------------------
 全体
 ---------------------------------*/
-.privacy,.about,.radio,.guidelines,.apply{
+.privacy,.about,.radio,.guidelines,.apply,.about-site{
   margin: 100px 20vw;
   font-family: 'Noto Sans JP';
   color: rgb(88, 88, 88);
 }
-.privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title{
+.privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title,.download-title,.about-site-title{
   font-size: 30px;
   margin-bottom: 30px;
   letter-spacing: 0.4vw;
 }
-.about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle,.apply-subtitle{
+.about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle,.apply-subtitle,.download-subtitle,.about-site-subtitle{
   margin-top: -35px;
 }
 /*--------------------------------
@@ -152,6 +153,7 @@ LCについて
 .operation-img{
   width: 200px;
   margin-right: 100px;
+  border: 0.1px solid #dadada;
 }
 .operation-creators{
   background-color: rgb(218, 218, 218);
@@ -399,7 +401,7 @@ apply
   border-radius: 20px;
 }
 .apply-question-details{
-  background: linear-gradient(135deg, #f8ac8e, #a6e49a,#92a4dd);
+  background: linear-gradient(135deg, #f8b98e, #b3f4ff);
   padding: 10px 10px 10px 10px;
 }
 .apply-question-details{
@@ -408,6 +410,64 @@ apply
 .apply-question-text{
   margin-top: 3px;
   margin-left: 20px;
+}
+/*--------------------------------
+download
+---------------------------------*/
+.download{
+  margin-top: 100px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 100px;
+  font-family: 'Noto Sans JP';
+  color: rgb(88, 88, 88);
+}
+.download-wallpaper,.download-logo{
+  margin: 200px 0px; 
+}
+.download-list{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.download-img{
+  width: 300px;
+  border: 0.1px solid #dadada;
+}
+.download-item a{
+  color: rgb(88, 88, 88);
+}
+.download-item{
+  margin: 20px 10px;
+  padding: 20px 15px 10px 15px;
+  border-radius: 26px;
+  background: #ffffff;
+  box-shadow:  7px 7px 20px #d4d4d4,
+               -7px -7px 20px #ffffff;
+}
+.download-name{
+  font-size: 15px;
+  text-align: center;
+}
+.download-logo-guidelines{
+  margin: 150px 0px; 
+  padding: 60px 0px;
+
+}
+.download-logo-guidelines-paragraph{
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+.download-logo-guidelines-date{
+  margin-top: 50px;
+}
+/*--------------------------------
+about-site
+---------------------------------*/
+.about-site-paragraph{
+  margin-top: 30px;
+  margin-bottom: -20px;
 }
 /*--------------------------------
 フッター
@@ -547,18 +607,18 @@ apply
    left: 0;/* メニューを画面に入れる */
   }
   /*全体*/
-  .privacy,.about,.creators,.contact,.radio,.guidelines,.apply{
+  .privacy,.about,.creators,.contact,.radio,.guidelines,.apply,.download,.about-site{
     padding-top: 70px;
     margin: 0px 20px;
   }
-  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title{
+  .privacy-title,.about-title,.news-title,.creators-title,.contact-title,.radio-title,.guidelines-title,.apply-title,.download-title,.about-site-title{
     font-size: 20px;
     margin-bottom: 30px;
   }
-  .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.apply-subtitle{
+  .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.apply-subtitle,.download-subtitle,.about-site-subtitle{
     font-size: 15px;
   }
-  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text,.apply-text{
+  .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text,.apply-text,.download-text,.about-site-text{
     font-size: 13px;
   }
   /*privacy */
@@ -768,6 +828,25 @@ apply
   .apply-question-text{
     font-size: 13px;
     margin-left: 15px;
+  }
+  /*　download */
+  .download-wallpaper,.download-logo,.download-logo-guidelines{
+    margin: 100px 0px; 
+  }
+  .download-img{
+    width: 250px;
+  }
+  .download-logo-guidelines-paragraph{
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+  .download-logo-guidelines-text,.download-logo-guidelines-date{
+    font-size: 13px;
+  }
+  /* about-site */
+  .about-site-paragraph{
+    margin-top: 30px;
+    margin-bottom: -15px;
   }
   /* フッター　*/
   .footer-all{
