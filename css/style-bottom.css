@@ -182,11 +182,13 @@ news
 .news-box{
   margin-bottom: 100px; 
 }
+.news-item{
+  margin: 20px 10px;
+}
 .news-list{
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 100px;
 }
 .news-img{
   width: 350px;
