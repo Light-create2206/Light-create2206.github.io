@@ -154,6 +154,7 @@ news
 }
 .news-img{
   width: 20vw;
+  border: 0.1px solid #dadada;
 }
 .news-item a{
   color: black;

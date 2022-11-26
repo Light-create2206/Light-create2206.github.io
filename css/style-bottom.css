@@ -192,6 +192,7 @@ news
 }
 .news-img{
   width: 350px;
+  border: 0.1px solid #dadada;
 }
 .news-item a{
   color: rgb(88, 88, 88);
@@ -222,6 +223,7 @@ news
 .news-article-img{ 
   width: 450px;
   margin-bottom: 50px;
+  border: 0.1px solid #dadada;
 }
 /*--------------------------------
 creators
