@@ -120,6 +120,9 @@ footer{
 .about-subtitle,.creators-subtitle,.contact-subtitle,.radio-subtitle,.guidelines-subtitle,.apply-subtitle,.download-subtitle,.about-site-subtitle{
   margin-top: -35px;
 }
+.center{
+  text-align: center;
+}
 /*--------------------------------
 プライバシーポリシー
 ---------------------------------*/
