@@ -459,39 +459,28 @@ apply
   }
   .flat.fade {
     width: 50%;
-    font-size: 13px;
+    font-size: 12px;
   }
   /* creators*/
-  .creators{
-    padding: 20vw 8vw;
-  }
-  .creators-subtext{
-    font-size: 14px;
-    padding-left: 10px;
-  }
   .creators-ytlist{
     display: block;
     text-align: center;
   }
   .at.or {
     width: 50%;
-    font-size: 13px;
+    font-size: 12px;
   }
   /* apply */
-  .gray,.white{
-    padding: 10vw 8vw;
-    letter-spacing: 0.4vw;
-  }
-  .apply-text , .about-text , .guidelines-text , .radio-text , .download-text , .contact-text{
+  .creators-text,.apply-text , .about-text , .guidelines-text , .radio-text , .download-text , .contact-text{
     font-size: 18px;
   }
   .subtext{
-    font-size: 13px;
+    font-size: 12px;
     padding-left: 5vw;
   }
   .p.l {
     width: 50%;
-    font-size: 13px;
+    font-size: 12px;
   }
   /* フッター　*/
   .footer-all{

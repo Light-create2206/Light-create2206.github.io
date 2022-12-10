@@ -626,18 +626,18 @@ about-site
     font-size: 15px;
   }
   .privacy-text,.about-text,.creators-text,.contact-text,.radio-text,.guidelines-text,.apply-text,.download-text,.about-site-text{
-    font-size: 13px;
+    font-size: 12px;
   }
   /*privacy */
   .privacy-subtitle{
-    font-size: 13px;
+    font-size: 12px;
   }
   .privacy-paragraph{
     margin-top: 30px;
     margin-bottom: -15px;
   }
   .privacy-date{
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 50px;
   }
   /*LCについて*/
@@ -655,7 +655,7 @@ about-site
     font-size: 20px;
   }
   .operation-position,.operation-subtext{
-    font-size: 13px;
+    font-size: 12px;
   }
   .operation-img-box{
     text-align: center;
@@ -696,7 +696,7 @@ about-site
     width: 300px;
   }
   .news-name{
-    font-size: 13px;
+    font-size: 12px;
   }
   .news-date{
     font-size: 9px;
@@ -720,7 +720,7 @@ about-site
     margin-bottom: 50px;
   }
   .news-article-text{
-    font-size: 15px;
+    font-size: 12px;
   }
   /*creators*/
   .creators{
@@ -753,19 +753,19 @@ about-site
   }
   .creator-info{
     margin-top: -20px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .creator-img{ 
     margin-bottom: 50px;
   }
   .creator-subtitle,.creator-text{
-    font-size: 13px;
+    font-size: 12px;
   }
   .creator-title{
     font-size: 15px;
   }
   .creator-link{
-    font-size: 13px;
+    font-size: 12px;
   }
   /* contact */
   .contact-link{
@@ -793,21 +793,21 @@ about-site
   }
   /* ガイドライン */
   .guidelines-subtitle{
-    font-size: 13px;
+    font-size: 12px;
   }
   .guidelines-paragraph{
     margin-top: 30px;
     margin-bottom: -15px;
   }
   .guidelines-date{
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 50px;
   }
   .guidelines-link-box{
     display: block;
     text-align: center;
     padding: 5px 5px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .guidelines-link{
     margin: 50px 0px;
@@ -824,16 +824,16 @@ about-site
     display: block;
     text-align: center;
     padding: 5px 5px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .apply-link{
     margin: 50px 0px;
   }
   .apply-question-details{
-    font-size: 13px;
+    font-size: 12px;
   }
   .apply-question-text{
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 15px;
   }
   /*　download */
@@ -848,7 +848,7 @@ about-site
     margin-bottom: -15px;
   }
   .download-logo-guidelines-text,.download-logo-guidelines-date{
-    font-size: 13px;
+    font-size: 12px;
   }
   /* about-site */
   .about-site-paragraph{
@@ -877,7 +877,7 @@ about-site
   }
   .footer-li{
     list-style-type: none;
-    font-size: 13px;
+    font-size: 12px;
   }
 
 }
