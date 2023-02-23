@@ -218,20 +218,20 @@ news
   letter-spacing: 0vw;
   padding-left: 40px;
 }
-/*--------------------------------
-creators
----------------------------------*/
-.creators-ytlist{
+.ytlist{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.creators-yt{
+.yt{
   justify-content: space-around;
   padding: 5vw 0vw;
   width: 288px;
   height: 162px;
 }
+/*--------------------------------
+creators
+---------------------------------*/
 .at.or {
   position: relative;
   text-align: center;
@@ -462,15 +462,11 @@ apply
     font-size: 12px;
   }
   /* creators*/
-  .creators-ytlist{
-    display: block;
-    text-align: center;
-  }
   .at.or {
     width: 50%;
     font-size: 12px;
   }
-  /* apply */
+  /* 基本 */
   .creators-text,.apply-text , .about-text , .guidelines-text , .radio-text , .download-text , .contact-text{
     font-size: 18px;
   }
@@ -481,6 +477,9 @@ apply
   .p.l {
     width: 50%;
     font-size: 12px;
+  }
+  .ytlist{
+    text-align: center;
   }
   /* フッター　*/
   .footer-all{
@@ -504,7 +503,7 @@ apply
   }
   .footer-li{
     list-style-type: none;
-    font-size: 13px;
+    font-size: 12px;
   }
 
 }
