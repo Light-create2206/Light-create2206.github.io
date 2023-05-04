@@ -136,8 +136,9 @@ footer{
 /*--------------------------------
 LCについて
 ---------------------------------*/
-.operation,.detail{
-  margin: 100px 0px;
+.operation,.detail,.history{
+  margin: 50px 0px;
+  padding: 50px 0px;
 }
 .operation a{
   color: rgb(88, 88, 88);
@@ -175,6 +176,7 @@ LCについて
 .detail-content{
   margin-left: 5em;
 }
+
 /*--------------------------------
 news
 ---------------------------------*/
